@@ -104,7 +104,8 @@ export const fallbackSiteSettings: SiteSettings = {
   siteTitle: "Goodale Glass",
   tagline: "Handcrafted glass art from Pensacola, Florida",
   contactEmail: "cory@goodaleglass.com",
-  instagram: "https://instagram.com/goodaleglass",
+  instagram: "https://www.instagram.com/corytylergoodbeer/",
+  facebook: "https://www.facebook.com/cory.goodale.3",
   aboutText: [
     {
       _type: "block",
