@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b87a"/>
+      <stop offset="50%" stop-color="#c47840"/>
+      <stop offset="100%" stop-color="#6b3a1a"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="40%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#d4a574" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <ellipse cx="400" cy="900" rx="160" ry="18" fill="#000" opacity="0.35"/>
+  <path d="M310 870 Q290 650 320 400 Q340 250 400 180 Q460 250 480 400 Q510 650 490 870 Z" fill="url(#vase)"/>
+  <path d="M310 870 Q290 650 320 400 Q340 250 400 180 Q460 250 480 400 Q510 650 490 870 Z" fill="url(#shine)" opacity="0.5"/>
+  <path d="M350 400 Q400 380 450 400" stroke="#fff" stroke-width="2" fill="none" opacity="0.2"/>
+</svg>

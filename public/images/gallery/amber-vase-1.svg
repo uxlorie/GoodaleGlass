@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1520"/>
+      <stop offset="50%" stop-color="#2d1f14"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#f0c88a"/>
+      <stop offset="40%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#8b5a2b"/>
+    </linearGradient>
+    <radialGradient id="highlight" cx="35%" cy="25%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d4a574" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <ellipse cx="400" cy="920" rx="180" ry="20" fill="#000" opacity="0.4"/>
+  <path d="M280 880 C260 700 270 500 300 320 C320 200 360 140 400 120 C440 140 480 200 500 320 C530 500 540 700 520 880 Z" fill="url(#vase)" filter="url(#glow)"/>
+  <path d="M280 880 C260 700 270 500 300 320 C320 200 360 140 400 120 C440 140 480 200 500 320 C530 500 540 700 520 880 Z" fill="url(#highlight)" opacity="0.6"/>
+  <ellipse cx="400" cy="130" rx="55" ry="12" fill="#f5e6d0" opacity="0.5"/>
+</svg>

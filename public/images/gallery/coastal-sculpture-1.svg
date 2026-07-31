@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f18"/>
+      <stop offset="100%" stop-color="#0a1a28"/>
+    </linearGradient>
+    <linearGradient id="sculpt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8c8e8"/>
+      <stop offset="50%" stop-color="#5a9ab8"/>
+      <stop offset="100%" stop-color="#2a5a78"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#c8e8ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <ellipse cx="400" cy="850" rx="150" ry="16" fill="#000" opacity="0.35"/>
+  <ellipse cx="400" cy="500" rx="200" ry="280" fill="url(#sculpt)"/>
+  <ellipse cx="400" cy="450" rx="120" ry="160" fill="url(#bloom)" opacity="0.7"/>
+  <path d="M400 220 Q350 350 320 500 Q300 600 400 780 Q500 600 480 500 Q450 350 400 220" fill="#7ab8d8" opacity="0.5"/>
+  <circle cx="360" cy="380" r="25" fill="#fff" opacity="0.25"/>
+</svg>
