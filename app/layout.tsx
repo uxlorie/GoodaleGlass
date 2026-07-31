@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import { GlassNav } from "@/components/ui/GlassNav";
 import { Footer } from "@/components/ui/Footer";
+import { SiteBackground } from "@/components/ui/SiteBackground";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/constants";
 import "./globals.css";
 
@@ -40,7 +41,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable} h-full`}>
-      <body className="min-h-full flex flex-col antialiased">
+      <body className="min-h-full flex flex-col antialiased relative">
+        <SiteBackground />
         <GlassNav />
         <main className="flex-1 pt-20">{children}</main>
         <Footer />
