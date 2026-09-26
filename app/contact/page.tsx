@@ -18,10 +18,10 @@ export default async function ContactPage() {
       <div className="mx-auto max-w-3xl">
         <FadeIn>
           <div className="text-center mb-12">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+            <p className="font-subheading text-sm tracking-[0.2em] text-muted mb-3">
               Get in Touch
             </p>
-            <h1 className="font-display text-4xl sm:text-6xl font-light text-foreground">
+            <h1 className="font-display text-4xl sm:text-6xl text-foreground">
               Contact
             </h1>
             <p className="mt-4 text-muted">
@@ -34,7 +34,7 @@ export default async function ContactPage() {
         <FadeIn delay={0.1}>
           <GlowPanel className="p-8 sm:p-12 space-y-8">
             <div>
-              <h3 className="text-xs uppercase tracking-widest text-muted mb-2">
+              <h3 className="font-subheading text-sm tracking-widest text-muted mb-2">
                 Email
               </h3>
               <a
@@ -46,7 +46,7 @@ export default async function ContactPage() {
             </div>
 
             <div>
-              <h3 className="text-xs uppercase tracking-widest text-muted mb-2">
+              <h3 className="font-subheading text-sm tracking-widest text-muted mb-2">
                 Location
               </h3>
               <p className="text-foreground">
@@ -60,7 +60,7 @@ export default async function ContactPage() {
 
             {(settings.instagram || settings.facebook) && (
               <div>
-                <h3 className="text-xs uppercase tracking-widest text-muted mb-2">
+                <h3 className="font-subheading text-sm tracking-widest text-muted mb-2">
                   Social
                 </h3>
                 <div className="flex gap-4">

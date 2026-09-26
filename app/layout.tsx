@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Bebas_Neue, Poppins } from "next/font/google";
 import { GlassNav } from "@/components/ui/GlassNav";
 import { Footer } from "@/components/ui/Footer";
 import { SiteBackground } from "@/components/ui/SiteBackground";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/constants";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["300", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const bebasNeue = Bebas_Neue({
+  variable: "--font-bebas",
   subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -40,7 +41,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable} h-full`}>
+    <html
+      lang="en"
+      className={`${poppins.variable} ${bebasNeue.variable} h-full`}
+    >
       <body className="min-h-full flex flex-col antialiased relative">
         <SiteBackground />
         <GlassNav />

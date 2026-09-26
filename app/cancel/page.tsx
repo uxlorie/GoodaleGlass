@@ -14,7 +14,7 @@ export default function CancelPage() {
       <div className="mx-auto max-w-lg text-center">
         <FadeIn>
           <GlowPanel className="p-10">
-            <h1 className="font-display text-3xl font-light text-foreground mb-4">
+            <h1 className="font-display text-3xl text-foreground mb-4">
               Checkout Cancelled
             </h1>
             <p className="text-muted leading-relaxed mb-8">

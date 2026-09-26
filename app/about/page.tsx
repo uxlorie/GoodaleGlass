@@ -20,10 +20,10 @@ export default async function AboutPage() {
       <div className="mx-auto max-w-6xl">
         <FadeIn>
           <div className="text-center mb-16">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+            <p className="font-subheading text-sm tracking-[0.2em] text-muted mb-3">
               The Artist
             </p>
-            <h1 className="font-display text-4xl sm:text-6xl font-light text-foreground">
+            <h1 className="font-display text-4xl sm:text-6xl text-foreground">
               About {ARTIST_NAME}
             </h1>
           </div>
@@ -33,10 +33,10 @@ export default async function AboutPage() {
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center mb-12">
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
               <Image
-                src="/images/cory-goodale.jpg"
-                alt={`${ARTIST_NAME} in his glassblowing studio at ${STUDIO_NAME}`}
+                src="/images/cory-goodale-at-torch.jpg"
+                alt={`${ARTIST_NAME} shaping glass at the torch in his studio at ${STUDIO_NAME}`}
                 fill
-                className="object-cover object-top"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
               />
@@ -48,18 +48,19 @@ export default async function AboutPage() {
                 ) : (
                   <>
                     <p className="text-muted leading-relaxed text-lg mb-6">
-                      {ARTIST_NAME} is a glass artist based in {LOCATION}. He
-                      creates one-of-a-kind vessels, sculptures, and functional
-                      art at the torch — each piece shaped by hand with
-                      meticulous attention to color, form, and light.
+                      Crafting one-of-a-kind hand-blown glass in Pensacola,
+                      Florida, Cory Goodale turns molten glass into lasting art.
+                      Working out of the First City Art Center, his designs draw
+                      deep inspiration from the warmth and coastal beauty of the
+                      Gulf Coast.
                     </p>
                     <p className="text-muted leading-relaxed text-lg">
-                      Cory blows glass at{" "}
-                      <span className="text-foreground">{STUDIO_NAME}</span>, a
-                      community arts center in Pensacola where artists gather to
-                      work, teach, and share their craft. The Gulf Coast&apos;s
-                      golden light and shifting blues inspire every piece he
-                      creates.
+                      Cory&apos;s creative energy extends far past the studio. A
+                      dedicated daily yoga practitioner, flow artist, and music
+                      lover, he thrives on movement, community, and genuine human
+                      connection. Cory believes art is best shared—and whether
+                      through a custom piece or a conversation, he loves bringing
+                      people together.
                     </p>
                   </>
                 )}

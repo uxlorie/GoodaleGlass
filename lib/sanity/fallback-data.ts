@@ -101,7 +101,7 @@ export const fallbackProducts: Product[] = [
 ];
 
 export const fallbackSiteSettings: SiteSettings = {
-  siteTitle: "Goodale Glass",
+  siteTitle: "Goodale Glassworks",
   tagline: "Handcrafted glass art from Pensacola, Florida",
   contactEmail: "cory@goodaleglass.com",
   instagram: "https://www.instagram.com/corytylergoodbeer/",
@@ -112,7 +112,16 @@ export const fallbackSiteSettings: SiteSettings = {
       children: [
         {
           _type: "span",
-          text: "Cory Goodale is a glass artist based in Pensacola, Florida, where he blows glass at First City Art Center. Each one-of-a-kind piece captures the warmth of molten glass and the beauty of the Gulf Coast.",
+          text: "Crafting one-of-a-kind hand-blown glass in Pensacola, Florida, Cory Goodale turns molten glass into lasting art. Working out of the First City Art Center, his designs draw deep inspiration from the warmth and coastal beauty of the Gulf Coast.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "Cory's creative energy extends far past the studio. A dedicated daily yoga practitioner, flow artist, and music lover, he thrives on movement, community, and genuine human connection. Cory believes art is best shared—and whether through a custom piece or a conversation, he loves bringing people together.",
         },
       ],
     },

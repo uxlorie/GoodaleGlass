@@ -15,12 +15,12 @@ export default async function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-accent/5 via-transparent to-transparent" />
         <div className="relative z-10 mx-auto max-w-4xl text-center">
           <FadeIn>
-            <p className="text-xs uppercase tracking-[0.3em] text-accent mb-6">
+            <p className="font-subheading text-sm tracking-[0.2em] text-accent mb-6">
               {LOCATION}
             </p>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl font-light tracking-tight text-foreground leading-[1.1]">
+            <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl tracking-tight text-foreground leading-[1.1]">
               Art in
               <br />
               <span className="text-accent">Molten Glass</span>
@@ -49,10 +49,10 @@ export default async function HomePage() {
         <div className="mx-auto max-w-7xl">
           <FadeIn>
             <div className="text-center mb-16">
-              <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+              <p className="font-subheading text-sm tracking-[0.2em] text-muted mb-3">
                 Featured Work
               </p>
-              <h2 className="font-display text-4xl sm:text-5xl font-light text-foreground">
+              <h2 className="font-display text-4xl sm:text-5xl text-foreground">
                 Selected Pieces
               </h2>
             </div>
@@ -81,20 +81,20 @@ export default async function HomePage() {
           <GlowPanel animated className="p-8 sm:p-12 lg:p-16" borderRadius={24}>
             <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
               <FadeIn>
-                <p className="text-xs uppercase tracking-[0.3em] text-accent mb-4">
+                <p className="font-subheading text-sm tracking-[0.2em] text-accent mb-4">
                   The Artist
                 </p>
-                <h2 className="font-display text-4xl sm:text-5xl font-light text-foreground leading-tight">
+                <h2 className="font-display text-4xl sm:text-5xl text-foreground leading-tight">
                   Crafted at {STUDIO_NAME}
                 </h2>
               </FadeIn>
               <FadeIn delay={0.15}>
                 <p className="text-muted leading-relaxed text-lg">
                   {ARTIST_NAME} transforms molten glass into one-of-a-kind
-                  vessels, sculptures, and functional art at{" "}
-                  {STUDIO_NAME} in Pensacola. Inspired by the Gulf
-                  Coast&apos;s light and color, every piece is shaped at the
-                  torch with meticulous attention to detail.
+                  vessels, sculptures, and functional art at {STUDIO_NAME}
+                  {" in Pensacola. Inspired by the Gulf Coast's light and color, "}
+                  every piece is shaped at the torch with meticulous attention to
+                  detail.
                 </p>
                 <Link
                   href="/about"
@@ -111,7 +111,7 @@ export default async function HomePage() {
       <section className="px-6 py-24 lg:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <FadeIn>
-            <h2 className="font-display text-4xl sm:text-5xl font-light text-foreground mb-6">
+            <h2 className="font-display text-4xl sm:text-5xl text-foreground mb-6">
               Have Something Unique in Mind?
             </h2>
             <p className="text-muted text-lg leading-relaxed mb-10">

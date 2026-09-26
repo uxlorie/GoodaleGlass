@@ -1,13 +1,13 @@
 import type { BorderGlowProps } from "@/components/ui/BorderGlow";
 
-/** Brand-matched defaults for Goodale Glass molten glass aesthetic */
+/** Brand-matched defaults for Goodale Glassworks */
 export const goodaleBorderGlowDefaults = {
   edgeSensitivity: 30,
-  glowColor: "210 70 65",
-  backgroundColor: "#0a0a0f",
+  glowColor: "100 39% 52%",
+  backgroundColor: "#000000",
   borderRadius: 16,
   glowRadius: 40,
   glowIntensity: 1.0,
   coneSpread: 25,
-  colors: ["#60a5fa", "#a8c8e8", "#38bdf8"],
+  colors: ["#ffef62", "#78b553", "#ffef62"],
 } satisfies Partial<BorderGlowProps>;

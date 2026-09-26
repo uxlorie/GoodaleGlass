@@ -9,7 +9,7 @@ interface GlassButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>
 
 const variants = {
   primary:
-    "bg-accent/90 text-background hover:bg-accent shadow-[0_0_30px_rgba(96,165,250,0.25)] hover:shadow-[0_0_40px_rgba(96,165,250,0.35)]",
+    "bg-accent/90 text-background hover:bg-accent shadow-[0_0_30px_rgba(120,181,83,0.25)] hover:shadow-[0_0_40px_rgba(120,181,83,0.35)]",
   ghost:
     "bg-white/5 text-foreground hover:bg-white/10 border border-white/10 backdrop-blur-xl",
   outline:

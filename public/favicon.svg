@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="16" cy="16" r="14" stroke="#60a5fa" stroke-width="1.5" fill="none" opacity="0.6"/>
-  <circle cx="16" cy="16" r="8" fill="#60a5fa" opacity="0.3"/>
-  <circle cx="13" cy="13" r="3" fill="#a8c8e8" opacity="0.5"/>
+  <defs>
+    <linearGradient id="brand-gradient" x1="16" y1="4" x2="16" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEF62"/>
+      <stop offset="1" stop-color="#78B553"/>
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="15" fill="#241F1F"/>
+  <circle cx="16" cy="16" r="10" fill="url(#brand-gradient)"/>
 </svg>

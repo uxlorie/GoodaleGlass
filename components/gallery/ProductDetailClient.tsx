@@ -100,10 +100,10 @@ export function ProductDetailClient({
 
           <FadeIn delay={0.15}>
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-muted mb-2">
+              <p className="font-subheading text-sm tracking-[0.2em] text-muted mb-2">
                 {product.category}
               </p>
-              <h1 className="font-display text-4xl sm:text-5xl font-light text-foreground">
+              <h1 className="font-display text-4xl sm:text-5xl text-foreground">
                 {product.title}
               </h1>
               <p className="mt-4 text-2xl text-accent">

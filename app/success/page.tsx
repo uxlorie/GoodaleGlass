@@ -29,7 +29,7 @@ export default function SuccessPage() {
                 />
               </svg>
             </div>
-            <h1 className="font-display text-3xl font-light text-foreground mb-4">
+            <h1 className="font-display text-3xl text-foreground mb-4">
               Thank You
             </h1>
             <p className="text-muted leading-relaxed mb-8">

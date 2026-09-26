@@ -8,7 +8,7 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
 
 export default defineConfig({
   name: "goodale-glass",
-  title: "Goodale Glass",
+  title: "Goodale Glassworks",
   projectId,
   dataset,
   plugins: [structureTool(), visionTool()],

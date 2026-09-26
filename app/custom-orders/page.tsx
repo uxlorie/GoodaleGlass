@@ -14,10 +14,10 @@ export default function CustomOrdersPage() {
       <div className="mx-auto max-w-3xl">
         <FadeIn>
           <div className="text-center mb-12">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+            <p className="font-subheading text-sm tracking-[0.2em] text-muted mb-3">
               Commissions
             </p>
-            <h1 className="font-display text-4xl sm:text-6xl font-light text-foreground">
+            <h1 className="font-display text-4xl sm:text-6xl text-foreground">
               Custom Orders
             </h1>
             <p className="mt-4 text-muted leading-relaxed max-w-xl mx-auto">

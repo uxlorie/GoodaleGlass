@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 md:grid-cols-3">
           <div>
-            <h3 className="font-display text-2xl font-light text-foreground">
+            <h3 className="font-display text-2xl text-foreground">
               {SITE_NAME}
             </h3>
             <p className="mt-3 text-sm text-muted leading-relaxed">
@@ -18,7 +18,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs uppercase tracking-widest text-muted mb-4">
+            <h4 className="font-subheading text-sm tracking-widest text-muted mb-4">
               Navigate
             </h4>
             <ul className="space-y-2">
@@ -36,7 +36,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs uppercase tracking-widest text-muted mb-4">
+            <h4 className="font-subheading text-sm tracking-widest text-muted mb-4">
               Connect
             </h4>
             <p className="text-sm text-foreground/80">

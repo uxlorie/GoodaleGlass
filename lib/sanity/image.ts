@@ -48,10 +48,10 @@ export function getPrimaryProductImageUrl(
 
 export function getPlaceholderGradient(index: number): string {
   const gradients = [
-    "linear-gradient(135deg, #1a1520 0%, #1a2a3d 50%, #60a5fa 100%)",
-    "linear-gradient(135deg, #0f1419 0%, #1a3040 50%, #a8c8e8 100%)",
-    "linear-gradient(135deg, #1a1010 0%, #4a2020 50%, #d47474 100%)",
-    "linear-gradient(135deg, #101018 0%, #202040 50%, #8888cc 100%)",
+    "linear-gradient(135deg, #000000 0%, #241f1f 50%, #78b553 100%)",
+    "linear-gradient(135deg, #241f1f 0%, #3a4a2a 50%, #ffef62 100%)",
+    "linear-gradient(135deg, #000000 0%, #2a3520 50%, #78b553 100%)",
+    "linear-gradient(135deg, #241f1f 0%, #4a5a30 50%, #ffef62 100%)",
   ];
   return gradients[index % gradients.length];
 }

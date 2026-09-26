@@ -1,4 +1,4 @@
-export const SITE_NAME = "Goodale Glass";
+export const SITE_NAME = "Goodale Glassworks";
 export const SITE_TAGLINE = "Handcrafted glass art from Pensacola, Florida";
 export const ARTIST_NAME = "Cory Goodale";
 export const LOCATION = "Pensacola, Florida";

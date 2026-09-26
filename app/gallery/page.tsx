@@ -24,10 +24,10 @@ export default async function GalleryPage({ searchParams }: GalleryPageProps) {
       <div className="mx-auto max-w-7xl">
         <FadeIn>
           <div className="text-center mb-12">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+            <p className="font-subheading text-sm tracking-[0.2em] text-muted mb-3">
               Collection
             </p>
-            <h1 className="font-display text-4xl sm:text-6xl font-light text-foreground">
+            <h1 className="font-display text-4xl sm:text-6xl text-foreground">
               Gallery
             </h1>
             <p className="mt-4 text-muted max-w-xl mx-auto">

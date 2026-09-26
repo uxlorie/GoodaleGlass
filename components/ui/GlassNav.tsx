@@ -29,7 +29,7 @@ export function GlassNav() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link
           href="/"
-          className="font-display text-2xl font-light tracking-wide text-foreground hover:text-accent transition-colors"
+          className="font-display text-2xl tracking-wide text-foreground hover:text-accent transition-colors"
         >
           {SITE_NAME}
         </Link>

@@ -48,10 +48,10 @@ export function GlassCard({ product, index = 0, className }: GlassCardProps) {
           )}
         </div>
         <div className="p-5">
-          <p className="text-xs uppercase tracking-widest text-muted mb-1">
+          <p className="font-subheading text-sm tracking-widest text-muted mb-1">
             {product.category}
           </p>
-          <h3 className="font-display text-xl font-light text-foreground group-hover:text-accent transition-colors">
+          <h3 className="font-display text-xl text-foreground group-hover:text-accent transition-colors">
             {product.title}
           </h3>
           <p className="mt-2 text-sm text-accent">{formatPrice(product.price)}</p>
